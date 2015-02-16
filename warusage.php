@@ -1,0 +1,238 @@
+<html>
+
+<head><title> Comparison on basis of Usage share </title>
+
+<link rel="stylesheet" type="text/css" href="osinfo.css">
+
+<script type="text/javascript" src="osinfo.js"></script>
+
+</head>
+
+<body>
+
+<div class="sitelogo">  <img src="sitelogo.png" alt="" usemap="#myMap"/> </div>
+
+<center> <p id="whatru" style="margin-top:0px"> Usage share of different Operating Systems </p>  </center><br><hr color="#999999">
+
+
+
+<div id="biggest" style="width:100%; margin-left:20px;">		
+
+		<p>This is an attempt to summarize OS market share by category. Of 
+
+course, some categories overlap for example embedded and RT OS or mobile
+
+ and embedded.</p>
+
+<p>In some cases, when known, the main OSes for a given family are added
+
+ in brackets. This concerns Linux distributions or Windows versions and 
+
+Apple products.</p><p class="vsmall">
+
+<table class="wikitable">
+
+<tbody><tr>
+
+<th>Category</th>
+
+<th>Source</th>
+
+<th>Date</th>
+
+<th><a href="http://en.wikipedia.org/wiki/Linux" title="Linux">Linux</a> based</th>
+
+<th>Other <a href="http://en.wikipedia.org/wiki/Unix" title="Unix">Unix</a></th>
+
+<th>In-House</th>
+
+<th><a href="http://en.wikipedia.org/wiki/Windows" title="Windows" class="mw-redirect">Windows</a></th>
+
+<th>Other</th>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Desktop_computer" title="Desktop computer">Desktop</a>, <a href="http://en.wikipedia.org/wiki/Laptop" title="Laptop">laptop</a>, <a href="http://en.wikipedia.org/wiki/Netbook" title="Netbook">netbook</a></td>
+
+<td><a href="http://en.wikipedia.org/wiki/Net_Applications" title="Net Applications">Net Applications</a></td>
+
+<td>Oct-13</td>
+
+<td>1.61% (<a href="http://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29" title="Ubuntu (operating system)">Ubuntu</a>)</td>
+
+<td>7.73% (<a href="http://en.wikipedia.org/wiki/OS_X" title="OS X">OS X</a>)</td>
+
+<td></td>
+
+<td>90.66% (<a href="http://en.wikipedia.org/wiki/Windows_XP" title="Windows XP">XP</a>, <a href="http://en.wikipedia.org/wiki/Windows_7" title="Windows 7">7</a>, <a href="http://en.wikipedia.org/wiki/Windows_Vista" title="Windows Vista">Vista</a>, <a href="http://en.wikipedia.org/wiki/Windows_8" title="Windows 8">8</a>)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Smartphone" title="Smartphone">Smartphone</a>, <a href="http://en.wikipedia.org/wiki/Tablet_computer" title="Tablet computer">tablet</a></td>
+
+<td><a href="http://en.wikipedia.org/wiki/StatCounter" title="StatCounter">StatCounter</a> Global Stats</td>
+
+<td>Oct-13</td>
+
+<td>39.51% (<a href="http://en.wikipedia.org/wiki/Android_%28operating_system%29" title="Android (operating system)">Android</a>)</td>
+
+<td>20.50% (<a href="http://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a>)</td>
+
+<td></td>
+
+<td>1.71% (<a href="http://en.wikipedia.org/wiki/Windows_Phone_8" title="Windows Phone 8">WP8</a>, <a href="http://en.wikipedia.org/wiki/Windows_RT" title="Windows RT">RT</a>)</td>
+
+<td>38.32%</td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Server_%28computing%29" title="Server (computing)">Server (web)</a></td>
+
+<td>W3Techs </td>
+
+<td>Oct-13</td>
+
+<td>31.47% (<a href="http://en.wikipedia.org/wiki/Debian" title="Debian">Debian</a>, <a href="http://en.wikipedia.org/wiki/CentOS" title="CentOS">CentOS</a>, <a href="http://en.wikipedia.org/wiki/RHEL" title="RHEL" class="mw-redirect">RHEL</a>)</td>
+
+<td>35.03% (<a href="http://en.wikipedia.org/wiki/BSD" title="BSD" class="mw-redirect">BSD</a>, <a href="http://en.wikipedia.org/wiki/HP-UX" title="HP-UX">HP-UX</a>, <a href="http://en.wikipedia.org/wiki/IBM_AIX" title="IBM AIX">Aix</a>, <a href="http://en.wikipedia.org/wiki/Solaris_%28operating_system%29" title="Solaris (operating system)">Solaris</a>)</td>
+
+<td></td>
+
+<td>33.50% (<a href="http://en.wikipedia.org/wiki/Windows_Server_2003" title="Windows Server 2003">W2K3</a>, <a href="http://en.wikipedia.org/wiki/Windows_Server_2008" title="Windows Server 2008">W2K8</a>)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Supercomputer" title="Supercomputer">Supercomputer</a></td>
+
+<td><a href="http://en.wikipedia.org/wiki/TOP500" title="TOP500">TOP500</a> </td>
+
+<td>Jun-13</td>
+
+<td>95.2% (<a href="http://en.wikipedia.org/wiki/Supercomputer_operating_systems" title="Supercomputer operating systems">Custom</a>)</td>
+
+<td>3.4% (<a href="http://en.wikipedia.org/wiki/UNIX" title="UNIX" class="mw-redirect">UNIX</a>)</td>
+
+<td></td>
+
+<td>0.6%</td>
+
+<td>0.8%</td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Mainframe_computer" title="Mainframe computer">Mainframe</a></td>
+
+<td><a href="http://en.wikipedia.org/wiki/Gartner" title="Gartner">Gartner</a></td>
+
+<td>Dec-08</td>
+
+<td>28% (<a href="http://en.wikipedia.org/wiki/SUSE_Linux_Enterprise_Server" title="SUSE Linux Enterprise Server">SLES</a>, <a href="http://en.wikipedia.org/wiki/RHEL" title="RHEL" class="mw-redirect">RHEL</a>)</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>72% (<a href="http://en.wikipedia.org/wiki/Z/OS" title="Z/OS">z/OS</a>)</td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Gaming_console" title="Gaming console" class="mw-redirect">Gaming console</a></td>
+
+<td><a href="http://en.wikipedia.org/wiki/Nintendo" title="Nintendo">Nintendo</a>, <a href="http://en.wikipedia.org/wiki/Sony" title="Sony">Sony</a>, <a href="http://en.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a>, <a href="http://en.wikipedia.org/wiki/Ouya" title="Ouya">Ouya</a> </td>
+
+<td>Jun-13</td>
+
+<td>0% (<a href="http://en.wikipedia.org/wiki/SteamOS" title="SteamOS">SteamOS</a>,<a href="http://en.wikipedia.org/wiki/Android_%28operating_system%29" title="Android (operating system)">Android</a>)</td>
+
+<td>29.6% (<a href="http://en.wikipedia.org/wiki/PlayStation_3_system_software" title="PlayStation 3 system software">PS3</a>)</td>
+
+<td>40.9% (<a href="http://en.wikipedia.org/wiki/IOS_%28firmware%29" title="IOS (firmware)" class="mw-redirect">Wii</a>)</td>
+
+<td>29.5% (<a href="http://en.wikipedia.org/wiki/Xbox_Dashboard" title="Xbox Dashboard" class="mw-redirect">Xbox</a>)</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/Embedded_operating_system" title="Embedded operating system">Embedded</a></td>
+
+<td><a href="http://en.wikipedia.org/wiki/UBM_plc" title="UBM plc">UBM Electronics</a> </td>
+
+<td>Mar-12</td>
+
+<td><a href="http://en.wikipedia.org/wiki/Embedded_Linux" title="Embedded Linux" class="mw-redirect">29.44%</a> (<a href="http://en.wikipedia.org/wiki/Android_%28operating_system%29" title="Android (operating system)">Android</a>, <a href="http://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29" title="Ubuntu (operating system)">Ubuntu</a>)</td>
+
+<td>4.29% (<a href="http://en.wikipedia.org/wiki/QNX" title="QNX">QNX</a>)</td>
+
+<td>13.5%</td>
+
+<td><a href="http://en.wikipedia.org/wiki/Windows_Embedded" title="Windows Embedded">11.65%</a> (<a href="http://en.wikipedia.org/wiki/Windows_Embedded_Compact_7" title="Windows Embedded Compact 7">WCE 7</a>)</td>
+
+<td>41.1%</td>
+
+</tr>
+
+<tr>
+
+<td><a href="http://en.wikipedia.org/wiki/RTOS" title="RTOS" class="mw-redirect">Real time</a></td>
+
+<td>NewTechPress </td>
+
+<td>Nov-11</td>
+
+<td>19.3% (<a href="http://en.wikipedia.org/wiki/Android_%28operating_system%29" title="Android (operating system)">Android</a>)</td>
+
+<td></td>
+
+<td>20.1%</td>
+
+<td>35.8% (<a href="http://en.wikipedia.org/wiki/Windows_XP_Embedded#Windows_XP_Embedded" title="Windows XP Embedded" class="mw-redirect">XPE</a>, <a href="http://en.wikipedia.org/wiki/Windows_CE" title="Windows CE">WCE</a>)</td>
+
+<td>24.8%</td>
+
+</tr>
+
+</tbody></table>
+
+<p>Note: Embedded and real time segments are very vast categories with different subcategories like <a href="http://en.wikipedia.org/wiki/Automotive_electronics" title="Automotive electronics">Automotive</a>, <a href="http://en.wikipedia.org/wiki/Avionics" title="Avionics">Avionics</a>, <a href="http://en.wikipedia.org/wiki/Health_informatics" title="Health informatics">Health</a>, <a href="http://en.wikipedia.org/wiki/Medical_electronics" title="Medical electronics" class="mw-redirect">Medical Equipment</a>, <a href="http://en.wikipedia.org/wiki/Consumer_electronics" title="Consumer electronics">Consumer Electronics</a>, <a href="http://en.wikipedia.org/wiki/Intelligent_home" title="Intelligent home" class="mw-redirect">Intelligent Homes</a>, <a href="http://en.wikipedia.org/wiki/Telecommunications_equipment" title="Telecommunications equipment">Telecommunications</a>.The aggregated information above could be very different for each 
+
+subcategory taken separately. It's also interesting to note that 
+
+embedded segment is the largest segment in term of unit compare to 
+
+mainframe and super computer but also desktop and server.</p></p></div>
+
+        <map name="myMap">
+
+	<area shape="rect" coords="5,20,255,55" href="http://www.osinfo.net" title="Home">
+
+    <area shape="rect" coords="8,62,124,77" href="aboutdev.php" title="About Dev">
+
+    <area shape="rect" coords="9,79,186,94" href="http://www.mozilla.org/en-US/firefox/new/" title="Click here to download Firefox ;)">
+
+    </map>
+
+</body>
+
+</html>
+

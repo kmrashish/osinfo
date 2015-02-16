@@ -1,0 +1,156 @@
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	margin-left:0px;
+	font-weight:100;
+}
+
+
+#whatru{
+	font-family: 'Roboto', sans-serif;
+	font-size:50px;
+	font-weight:100;
+}
+
+#tilecontainer{
+	margin-top:0;
+	width:100%;
+	height:460px;
+}
+
+.homeimages{
+	width:20%;
+	height:auto;
+	float:left;
+	margin-left:0px;
+}
+
+.homeimages:hover{
+	transform:scale(1.1);
+	transition-timing-function:ease-out;
+	transition-duration:200ms;
+	-webkit-transform:scale(1.1);
+	-webkit-transition-timing-function:ease-out.
+	-webkit-transition-duration:200ms;
+}
+
+.optionsection{
+	font-family: 'Roboto', sans-serif;
+	font-size:45px;
+	margin-left:0px;
+	font-weight:100;
+}
+
+.about{
+	font-family: 'Roboto', sans-serif;
+	font-size:45px;
+	margin-left:50px;
+	font-weight:100;
+}
+
+
+.about:hover{
+	-webkit-transform:scale(1.1);
+	
+	transform:scale(1.1);
+	transition-timing-function:ease-out;
+	transition-duration:200ms;
+	color:#0C0;
+	font-weight:200;
+}
+
+.aboutwindows{
+	font-family: 'Roboto', sans-serif;
+	font-size:45px;
+	margin-left:50px;
+	font-weight:100;
+}
+
+
+.aboutwindows:hover{
+	-webkit-transform:scale(1.1);
+	
+	transform:scale(1.1);
+	transition-timing-function:ease-out;
+	transition-duration:200ms;
+	color:#0CF;
+	font-weight:200;
+}
+
+.footer{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+	font-weight:100;
+}
+
+.footer:hover{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+	transition-timing-function:ease-out;
+	transition-duration:200ms;
+	color:#0C0;
+}
+
+.sitelogo{
+	width:auto;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+.smallp{
+	font-size:22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.maclist{
+	font-family: 'Roboto', sans-serif;
+	font-size:45px;
+	margin-left:50px;
+	font-weight:100;
+}
+
+
+.maclist:hover{	
+	transform:scale(1.1);
+	transition-timing-function:ease-out;
+	transition-duration:200ms;
+	color:#06C;
+	font-weight:200;
+} 	
+.vsmall{
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	font-size:30px;
+	font-family: 'Roboto', sans-serif;
+}
+.ubuntulist{
+	font-family: 'Roboto', sans-serif;
+	font-size:45px;
+	margin-left:50px;
+	font-weight:100;
+}
+
+
+.ubuntulist:hover{	
+	transform:scale(1.1);
+	transition-timing-function:ease-out;
+	transition-duration:200ms;
+	color:#C30;
+	font-weight:200;
+} 	
+
+.error{
+	color:red;
+font-size:16px;
+}
+
