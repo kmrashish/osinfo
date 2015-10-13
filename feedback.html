@@ -28,59 +28,6 @@
 
 
 
-<?php
-
-// define variables and set to empty values
-
-@$nameErr = "";
-
-@$name = $email = $feed_value = "";
-
-$flag=0;
-
-if ($_SERVER["REQUEST_METHOD"] == "POST")
-
-{
-
-   $name = test_input($_POST["name"]);
-
-   if (!preg_match("/^[a-zA-Z ]*$/",$name))
-
-      {
-
-      $nameErr = "Only letters and white space allowed";
-
-	  $flag=1;
-
-      }
-
-   $email = test_input($_POST["email"]);
-
-   $feed_value = test_input($_POST["feed_value"]);
-
-  }
-
-
-
-function test_input($data)
-
-{
-
-   $data = trim($data);
-
-   $data = stripslashes($data);
-
-   $data = htmlspecialchars($data);
-
-   return $data;
-
-}
-
-?>
-
-
-
-
 
 
 
@@ -102,25 +49,6 @@ function test_input($data)
 
 
 
-<?php
-
-if(isset($_POST['name'])&&isset($_POST['email'])&&isset($_POST['feed_value'])){
-
-	mysql_connect("osinfo1.db.10554283.hostedresource.com", "osinfo1", "Ashu@12345");
-
-	mysql_select_db("osinfo1");
-
-	$query="insert into feedback (name, email, feed_value) values ('$_POST[name]','$_POST[email]','$_POST[feed_value]')";
-
-	$query_run=mysql_query($query);
-
-	@$result=mysql_fetch_assoc($query_run);
-
-	echo "<p>Thank You, your response has been recorded</p>";
-
-	}
-
-?>
 
 
 
